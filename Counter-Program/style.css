@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(63, 148, 120);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#counter {
+  text-align: center;
+  font-size: 7.5em;
+}
+
+.buttonContainer {
+  text-align: center;
+}
+
+.buttons {
+  padding: 1.5em 2em;
+  margin-left: 1em;
+  cursor: pointer;
+  background-color: rgb(100, 40, 40);
+  color: white;
+  border-radius: 10%;
+}

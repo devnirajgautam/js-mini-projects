@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Temperature Converter</title>
+    </head>
+    <body>
+        <div class="formContainer">
+            <form class="form">
+                <h1 class="title">Convert Temperature</h1>
+                <input
+                    type="number"
+                    name="temperature"
+                    id="temperature"
+                    value="0"
+                />
+                <br />
+                <label for="conversion" class="radioLabel"
+                    >Choose a type of conversion:</label
+                >
+                <br />
+                <div class="radioContainer">
+                    <input type="radio" name="conversion" id="radioToCelsius" />
+                    °F (Fahrenheit) to °C (Celsius) <br />
+                    <input
+                        type="radio"
+                        name="conversion"
+                        id="radioToFahrenheit"
+                    />
+                    °C (Celsius) to °F (Fahrenheit)<br />
+                </div>
+                <button type="submit" id="submit">Submit</button>
+                <p id="result">Result</p>
+            </form>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

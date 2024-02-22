@@ -1,9 +1,9 @@
 # Some mini Javascript projects made to learn it.
 
-A simple counter program
+1. A simple counter program
 
-A simple number guesser
+2. A simple number guesser
 
-A Temperature Converter (Celsius -> Fahrenheit & vice-versa)
+3. A Temperature Converter (Celsius -> Fahrenheit & vice-versa)
 
-A dice roller - can roll multiple dices
+4. A dice roller - can roll multiple dices

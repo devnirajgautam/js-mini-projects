@@ -2,8 +2,10 @@
 
 1. A simple counter program
 
-2. A simple number guesser
+2. A simple number guessing game
 
-3. A Temperature Converter (Celsius -> Fahrenheit & vice-versa)
+3. Temperature Converter (Celsius -> Fahrenheit & opposite)
 
-4. A dice roller - can roll multiple dices
+4. Dice roller - can roll multiple dices
+
+5. Random Password Generator - you can choose to include different type of characters

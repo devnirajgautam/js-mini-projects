@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1 class="title">RANDOM PASSWORD GENERATOR</h1>
+
+        <div class="checkboxContainer">
+            <label class="label">Include:</label>
+
+            <label for="includeLowerCase" class="checkboxLabel">
+                <input
+                    type="checkbox"
+                    name="includeChars"
+                    id="includeLowerCase"
+                    class="checkbox"
+                />
+                Lowercase (a - z)
+            </label>
+
+            <label for="includeUpperCase" class="checkboxLabel">
+                <input
+                    type="checkbox"
+                    name="includeUpperCase"
+                    id="includeUpperCase"
+                    class="checkbox"
+                />
+                Uppercase (A - Z)
+            </label>
+
+            <label for="includeNumbers" class="checkboxLabel">
+                <input
+                    type="checkbox"
+                    name="includeNumbers"
+                    id="includeNumbers"
+                    class="checkbox"
+                />
+                Numbers (0 - 9)
+            </label>
+
+            <label for="includeSpecialChars" class="checkboxLabel">
+                <input
+                    type="checkbox"
+                    name="includeSpecialChars"
+                    id="includeSpecialChars"
+                    class="checkbox"
+                />
+                Special Characters (! @ # $ % & * _ ?)
+            </label>
+        </div>
+
+        <input
+            type="button"
+            value="Generate"
+            id="generate"
+            onclick="generatePassword()"
+        />
+
+        <div class="outputContainer">
+            <label for="password">Your Random Password:</label>
+            <input type="text" name="password" id="password" readonly />
+        </div>
+    </body>
+</html>

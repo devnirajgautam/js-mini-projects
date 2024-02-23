@@ -62,7 +62,15 @@
 
         <div class="outputContainer">
             <label for="password">Your Random Password:</label>
+
             <input type="text" name="password" id="password" readonly />
+
+            <input
+                type="button"
+                value="Copy"
+                id="copyPassword"
+                onclick="copyPassword()"
+            />
         </div>
     </body>
 </html>

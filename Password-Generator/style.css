@@ -111,6 +111,7 @@ input[type="checkbox"] {
     background-color: #c54d22;
     border: none;
     border-radius: 5px;
+    display: none;
 }
 
 #copyPassword:hover {

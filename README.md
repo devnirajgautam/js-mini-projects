@@ -9,3 +9,5 @@
 4. Dice roller - can roll multiple dices
 
 5. Random Password Generator - you can choose to include different type of characters
+
+6. A basic digital clock

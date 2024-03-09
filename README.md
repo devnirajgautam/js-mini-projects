@@ -11,3 +11,5 @@
 5. Random Password Generator - you can choose to include different type of characters
 
 6. A basic digital clock
+
+7. Rock-Paper-Scissor game

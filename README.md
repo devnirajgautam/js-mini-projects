@@ -16,4 +16,4 @@
 
 8. stopwatch
 
-9. Calculator
+9. Modern Calculator

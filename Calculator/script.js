@@ -13,6 +13,7 @@ buttons.forEach((button) => {
             toCalculate += e.target.textContent;
             display.value += e.target.textContent;
         }
+
         console.log(toCalculate);
         topDisplay.value = "";
     });
@@ -27,7 +28,6 @@ function divideMultiply(operator) {
 
         toCalculate = toCalculate.replace(operator[0], operator[1]);
     }
-    console.log(toCalculate);
 }
 
 function plusMinus(operator) {
@@ -41,7 +41,6 @@ function plusMinus(operator) {
     }
 
     toCalculate = toCalculate.replace(operator[0], operator[1]);
-    console.log(toCalculate);
 }
 
 function parenthesis(type) {
@@ -52,7 +51,6 @@ function parenthesis(type) {
         display.value += bracket;
         toCalculate += bracket;
     }
-    console.log(toCalculate);
 }
 
 function showResult() {
@@ -81,7 +79,6 @@ function showResult() {
             }
         }
     }
-    console.log(display.value);
 }
 
 function clearDisplay() {

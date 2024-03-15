@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="theme-buttons">
+                <img
+                    src="images/light.png"
+                    alt="light-mode button"
+                    class="icon"
+                    id="light-mode"
+                />
+                <p>|</p>
+                <img
+                    src="images/dark.png"
+                    alt="dark-mode button"
+                    class="icon active"
+                    id="dark-mode"
+                />
+            </div>
+
+            <input
+                type="text"
+                class="top-display"
+                id="top-display"
+                value=""
+                readonly
+            />
+            <input
+                type="text"
+                class="display"
+                id="display"
+                value="0"
+                readonly
+            />
+            <hr />
+            <div id="buttons" class="buttons">
+                <button class="clear light" onclick="clearDisplay()">C</button>
+                <button
+                    class="left-bracket light"
+                    onclick="parenthesis('left')"
+                >
+                    &#40;
+                </button>
+                <button
+                    class="right-bracket light"
+                    onclick="parenthesis('right')"
+                >
+                    &#41;
+                </button>
+                <button class="divide dark" onclick="divideMultiply('÷/')">
+                    &#247;
+                </button>
+                <button class="number">7</button>
+                <button class="number">8</button>
+                <button class="number">9</button>
+                <button class="multiply dark" onclick="divideMultiply('×*')">
+                    &#215;
+                </button>
+                <button class="number">4</button>
+                <button class="number">5</button>
+                <button class="number">6</button>
+                <button class="minus dark" onclick="plusMinus('−-')">
+                    &#8722;
+                </button>
+                <button class="number">1</button>
+                <button class="number">2</button>
+                <button class="number">3</button>
+                <button class="plus dark" onclick="plusMinus('++')">
+                    &#43;
+                </button>
+                <button class="number">0</button>
+                <button class="number">.</button>
+                <button class="equal dark" onclick="showResult()">&#61;</button>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,6 +1,11 @@
 const display = document.getElementById("display");
 const topDisplay = document.getElementById("top-display");
 
+const container = document.querySelector(".container");
+
+const lightMode = document.getElementById("light-mode");
+const darkMode = document.getElementById("dark-mode");
+
 const buttons = document.querySelectorAll(".number");
 
 let toCalculate;
@@ -14,7 +19,6 @@ buttons.forEach((button) => {
             display.value += e.target.textContent;
         }
 
-        console.log(toCalculate);
         topDisplay.value = "";
     });
 });
@@ -28,6 +32,7 @@ function divideMultiply(operator) {
 
         toCalculate = toCalculate.replace(operator[0], operator[1]);
     }
+    topDisplay.value = "";
 }
 
 function plusMinus(operator) {
@@ -41,6 +46,7 @@ function plusMinus(operator) {
     }
 
     toCalculate = toCalculate.replace(operator[0], operator[1]);
+    topDisplay.value = "";
 }
 
 function parenthesis(type) {
@@ -51,6 +57,7 @@ function parenthesis(type) {
         display.value += bracket;
         toCalculate += bracket;
     }
+    topDisplay.value = "";
 }
 
 function showResult() {
@@ -85,4 +92,17 @@ function clearDisplay() {
     topDisplay.value = "";
     display.value = "0";
     toCalculate = "0";
+}
+
+function toggleTheme(mode) {
+    const list = container.classList;
+    if (mode === "light") {
+        list.add("lightTheme");
+        lightMode.classList.add("active");
+        darkMode.classList.remove("active");
+    } else {
+        list.remove("lightTheme");
+        lightMode.classList.remove("active");
+        darkMode.classList.add("active");
+    }
 }

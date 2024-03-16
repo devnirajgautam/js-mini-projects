@@ -26,7 +26,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 5px 5px 25px grey;
 }
 
 .theme-buttons {
@@ -50,7 +50,7 @@ body {
     cursor: pointer;
     -webkit-filter: invert(100%);
     filter: invert(100%);
-    animation: filter 1s ease;
+
     opacity: 0.3;
 }
 
@@ -85,6 +85,7 @@ input {
     width: 100%;
     text-align: right;
     padding-right: 1rem;
+    padding-left: 1rem;
     border: none;
     background-color: transparent;
     color: hsl(0, 1%, 83%);
@@ -167,4 +168,21 @@ button:active {
 .left-bracket,
 .right-bracket {
     font-size: 2rem;
+}
+
+.lightTheme {
+    background-color: hsl(0, 0%, 92%);
+
+    .theme-buttons {
+        background: rgb(34, 35, 34);
+    }
+    input {
+        color: rgb(34, 35, 34);
+    }
+    .top-display {
+        color: hsla(120, 1%, 14%, 0.6);
+    }
+    hr {
+        background-color: rgb(34, 35, 34);
+    }
 }

@@ -1,21 +1,20 @@
 # Some mini Javascript projects made to learn it.
 
-1. Counter program
+1. Tic-Tac-Toe (2 Player)
 
-2. A simple number guessing game
+2. Modern Calculator
 
-3. Temperature Converter (Celsius -> Fahrenheit & back)
+3. Random Password Generator - choose different
+   characters
 
-4. Dice Roller - can roll multiple dices
+4. Rock-Paper-Scissor game
 
-5. Random Password Generator - choose different characters
+5. Stopwatch
 
-6. Digital clock
+6. Dice Roller - can roll multiple dices
 
-7. Rock-Paper-Scissor game
+7. A simple number guessing game
 
-8. stopwatch
+8. Temperature Converter (Celsius -> Fahrenheit & back)
 
-9. Modern Calculator
-
-10. Tic-Tac-Toe (2 Player)
+9. Digital clock

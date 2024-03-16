@@ -17,3 +17,5 @@
 8. stopwatch
 
 9. Modern Calculator
+
+10. Tic-Tac-Toe (2 Player)

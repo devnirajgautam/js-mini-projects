@@ -1,4 +1,4 @@
-# Some mini Javascript projects made to learn it.
+# Some mini Javascript projects made to practice js.
 
 1. Tic-Tac-Toe (2 Player)
 
